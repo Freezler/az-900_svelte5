@@ -1,0 +1,7 @@
+<script lang="ts">
+	let { title } = $props();
+</script>
+
+<div class="grid h-96 place-items-center items-center justify-center bg-violet-400">
+	<h1>Hello from header</h1>
+</div>
