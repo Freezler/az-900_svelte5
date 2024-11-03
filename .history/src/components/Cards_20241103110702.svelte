@@ -44,11 +44,11 @@
 >
 	{#each plans as plan}
 		<div
-			class=" subgrid grid w-full place-items-center gap-4 rounded-2xl border-transparent bg-blue-500/20 pb-6"
+			class="-z-10 subgrid grid w-full place-items-center gap-4 rounded-2xl border-transparent bg-blue-500/20 pb-6"
 		>
 			<img
 				src={plan.image}
-				class="object-fit h-[208px] w-full object-cover rounded-t-2xl"
+				class="relative object-fit h-[208px] w-full object-cover rounded-t-2xl"
 				loading="lazy"
 				alt="tech used"
 			/>

@@ -22,9 +22,9 @@ let user = $state('Stranger');
 <div class="min-h-[60vh] flex items-center justify-center  pb-16">
   <div class="flex flex-col md:flex-row w-full max-w-4xl  rounded-lg shadow-lg overflow-hidden">
     <!-- Left side: Logo and Welcome message -->
-    <div class="md:w-1/2 flex flex-col items-center justify-center p-14 bg-[url('./headImage.png')] text-white">
+    <div class="md:w-1/2 flex flex-col items-center justify-center p-14 bg-[url('./HeaderAzure.png')] text-white">
       <img src="./Design 2.png" alt="Ran form Logo" class="w-40 h-40 rounded-full mb-4">
-      <h2 class="text-2xl font-semibold text-red-900">Good Evening {user}!</h2>
+      <h2 class="text-2xl font-semibold">Good Evening {user}!</h2>
       <p class="text-lg text-center mt-2">Log in to your account!</p>
     </div>
 
@@ -59,10 +59,10 @@ let user = $state('Stranger');
 
       <!-- Sign up and Terms Links -->
       <div class="text-center mt-6 w-full">
-        <p class="text-sm">Don't have an account? <a href="_blank" class="text-blue-600 hover:underline">Sign up</a></p>
+        <p class="text-sm">Don't have an account? <a href="/studio/account/register" class="text-blue-600 hover:underline">Sign up</a></p>
         <p class="text-xs text-gray-500 mt-2">
           By continuing, you agree to our <a href="_blank" target="_blank" class="hover:underline">Terms of Service</a> and
-          <a href="_blank" target="_blank" class="hover:underline">Privacy Policy</a>.
+          <a href="https://aliveforms.com/privacy" target="_blank" class="hover:underline">Privacy Policy</a>.
         </p>
       </div>
     </div>

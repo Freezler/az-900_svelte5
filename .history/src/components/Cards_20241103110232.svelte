@@ -39,16 +39,16 @@
 </script>
 
 <section
-	class=" my-16 grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 md:px-4 lg:grid-cols-3"
+	class="z-50 my-16 grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 md:px-4 lg:grid-cols-3"
 	in:fade={{ duration: 1000 }}
 >
 	{#each plans as plan}
 		<div
-			class=" subgrid grid w-full place-items-center gap-4 rounded-2xl border-transparent bg-blue-500/20 pb-6"
+			class="subgrid grid w-full place-items-center gap-4 rounded-2xl border-transparent bg-blue-500/20 pb-6"
 		>
 			<img
 				src={plan.image}
-				class="object-fit h-[208px] w-full object-cover rounded-t-2xl"
+				class="relative object-fit h-[208px] w-full object-cover rounded-t-2xl"
 				loading="lazy"
 				alt="tech used"
 			/>

@@ -48,7 +48,7 @@
 		>
 			<img
 				src={plan.image}
-				class="object-fit h-[208px] w-full object-cover rounded-t-2xl"
+				class="relative object-fit h-[208px] w-full object-cover rounded-t-2xl"
 				loading="lazy"
 				alt="tech used"
 			/>

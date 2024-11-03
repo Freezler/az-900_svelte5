@@ -18,13 +18,13 @@
 		isMenuOpen = !isMenuOpen;
 	}
 </script>
-<img src="./Design 2.png" class="z-100 w-24 fixed top-0 left-0 m-4 hover:opacity-15 transition-all" alt="otter logo">
+<img src="./Design 2.png" class="w-24 fixed top-0 left-0 m-4 hover:opacity-15 transition-all" alt="otter logo">
 
 
 <button
 	on:click={toggle}
 	tabindex="0"
-	class=" z-100 fixed rounded-full right-0 top-0 size-[88px]  m-[20px] border-4 text-6xl text-white hover:bg-[hsl(210,55%,8%,0.4)] transition-all"
+	class="fixed rounded-full  right-0 top-0 size-[88px]  m-[20px] border-4 text-6xl text-white hover:bg-[hsl(210,55%,8%,0.4)] transition-all"
 	aria-expanded={isMenuOpen}
 	aria-controls="menu"
 	aria-label="open menu"

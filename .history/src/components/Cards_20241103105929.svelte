@@ -39,16 +39,16 @@
 </script>
 
 <section
-	class=" my-16 grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 md:px-4 lg:grid-cols-3"
+	class="my-16 grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 md:px-4 lg:grid-cols-3"
 	in:fade={{ duration: 1000 }}
 >
 	{#each plans as plan}
 		<div
-			class=" subgrid grid w-full place-items-center gap-4 rounded-2xl border-transparent bg-blue-500/20 pb-6"
+			class="subgrid grid w-full place-items-center gap-4 rounded-xl border-transparent bg-blue-500/20 pb-6"
 		>
 			<img
 				src={plan.image}
-				class="object-fit h-[208px] w-full object-cover rounded-t-2xl"
+				class="relative object-fit h-[208px] w-full object-cover"
 				loading="lazy"
 				alt="tech used"
 			/>
@@ -63,7 +63,7 @@
 			<button
 				type="button"
 				class="action mx-auto my-4 w-[180px] rounded border bg-indigo-500 px-4 py-2 text-white hover:bg-[hsl(210,55%,8%,1)]"
-				>learn more</button
+				>try it out</button
 			>
 		</div>
 	{/each}

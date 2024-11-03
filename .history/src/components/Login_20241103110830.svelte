@@ -24,7 +24,7 @@ let user = $state('Stranger');
     <!-- Left side: Logo and Welcome message -->
     <div class="md:w-1/2 flex flex-col items-center justify-center p-14 bg-[url('./headImage.png')] text-white">
       <img src="./Design 2.png" alt="Ran form Logo" class="w-40 h-40 rounded-full mb-4">
-      <h2 class="text-2xl font-semibold text-red-900">Good Evening {user}!</h2>
+      <h2 class="text-2xl font-semibold">Good Evening {user}!</h2>
       <p class="text-lg text-center mt-2">Log in to your account!</p>
     </div>
 
