@@ -30,16 +30,14 @@
 </script>
 
 
-<!-- svelte-ignore a11y_click_events_have_key_events -->
-<!-- svelte-ignore a11y_no_static_element_interactions -->
-<div on:click={toggle} aria-owns="menu">
+<div on:click={toggle}>
   <button
     tabindex="0"
-    class="z-100 fixed right-0 top-0 m-[24px] size-[72px] rounded-full border-4 border-yellow-400 text-yellow-300 transition-all hover:bg-[hsl(210,55%,8%,0.4)]"
+    class="z-100 fixed right-0 top-0 m-[22px] size-[72px] rounded-full border-4 border-yellow-400 text-yellow-300 transition-all hover:bg-[hsl(210,55%,8%,0.4)] backdrop-brightness-[.50]"
     aria-expanded={isMenuOpen}
     aria-controls="menu"
     aria-label="open menu"
-		aria-roledescription="menu"
+		a="button"
   >
     {#if !isMenuOpen}
       <svg xmlns="http://www.w3.org/2000/svg" width="2.8rem" height="2.8rem" viewBox="0 0 12 24" {...$$props}><path fill="currentColor" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z" class="pointer-events-none"/></svg>

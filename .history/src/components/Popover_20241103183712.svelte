@@ -35,7 +35,7 @@
 <div on:click={toggle} aria-owns="menu">
   <button
     tabindex="0"
-    class="z-100 fixed right-0 top-0 m-[24px] size-[72px] rounded-full border-4 border-yellow-400 text-yellow-300 transition-all hover:bg-[hsl(210,55%,8%,0.4)]"
+    class="z-100 fixed right-0 top-0 m-[x] size-[72px] rounded-full border-4 border-yellow-400 text-yellow-300 transition-all hover:bg-[hsl(210,55%,8%,0.4)] backdrop-brightness-[.50]"
     aria-expanded={isMenuOpen}
     aria-controls="menu"
     aria-label="open menu"

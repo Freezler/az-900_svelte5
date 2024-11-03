@@ -29,11 +29,10 @@
 </script>
 
 <div
-	class="grid h-full w-full place-items-center items-center justify-center"
+	class="grid h-full w-full place-items-center items-center justify-center px-8"
 	transition:fade={{ duration: 600 }}
 >
-<header><Popover /></header>
-
+	<Popover />
 	<div class="bg-[--bg-color2] text-[--text-color] p-16 grid gap-2 my-36 rounded-sm">
 		<h1 class="text-[clamp(1rem,5vw,2.2rem)] text-center">{title}</h1>
 
