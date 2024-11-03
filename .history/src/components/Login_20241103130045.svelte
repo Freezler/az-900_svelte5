@@ -23,7 +23,7 @@ let user = $state('Stranger');
   <div class="flex flex-col md:flex-row w-full max-w-4xl  rounded-lg shadow-lg overflow-hidden">
     <!-- Left side: Logo and Welcome message -->
     <div class="md:w-1/2 flex flex-col items-center justify-center p-14 bg-center object-cover bg-cover bg-[url('./images/headImage.png')] text-white">
-      <img src="/public/images/Design 2.png" alt="Ran form Logo" class="w-40 h-40 rounded-full mb-4">
+      <img src=".~/images/Design 2.png" alt="Ran form Logo" class="w-40 h-40 rounded-full mb-4">
       <h2 class="text-2xl font-semibold text-red-900">Good Evening {user}!</h2>
       <p class="text-lg text-center mt-2">Log in to your account!</p>
     </div>
