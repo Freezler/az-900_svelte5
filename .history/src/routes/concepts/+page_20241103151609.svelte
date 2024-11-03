@@ -1,5 +1,5 @@
 <script>
-  import { fade } from 'svelte/transition';
+  import {}
   import Popover from '/Users/randydevries/workspace/github.com/FREEZLER/svelte5/svelte5-learn/src/components/Popover.svelte';
 </script>
 

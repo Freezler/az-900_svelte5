@@ -1,5 +1,5 @@
 <script>
-	import { fade, fly,slide } from 'svelte/transition';
+	import { fade, fly,sl } from 'svelte/transition';
 	// Define your plans as an array of objects
 	const plans = [
 		{
@@ -40,7 +40,7 @@
 
 <section
 	class=" mx-auto my-16 grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 md:px-4 lg:grid-cols-3"
-	in:fade={{ duration: 600 }}
+	in:fade={{ duration: 1000 }}
 >
 	{#each plans as plan}
 		<div
