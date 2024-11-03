@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
-
+	import { isColonToken } from 'typescript';
+	import { createEmitAndSemanticDiagnosticsBuilderProgram } from 'typescript';
+	
 
 	onMount(() => {
 		document.addEventListener('click', (event) => {
