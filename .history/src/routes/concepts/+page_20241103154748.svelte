@@ -105,7 +105,7 @@
 
 </script>
 
-<div class="grid h-full w-full place-items-center items-center justify-center"
+<div class="grid h-screen] w-full place-items-center items-center justify-center"
 in:fade={{ duration: 600 }}>
   <Popover />
   <div class="container">
