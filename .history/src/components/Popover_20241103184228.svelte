@@ -30,7 +30,9 @@
 </script>
 
 
-<div on:click={toggle}>
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<div on:click={handleInteraction} on:touchend={handleInteraction}>
   <button
     tabindex="0"
     class="z-100 fixed right-0 top-0 m-[22px] size-[72px] rounded-full border-4 border-yellow-400 text-yellow-300 transition-all hover:bg-[hsl(210,55%,8%,0.4)] backdrop-brightness-[.50]"
@@ -45,6 +47,15 @@
     {/if}
   </button>
 </div>
+
+{#if isMenuOpen}
+  <div
+    class="z-100 fixed bottom-0 left-0 mt-auto h-[42vh] w-full bg-blue-500/20 text-center border-t-2 border-[--text-color] shadow-md backdrop-blur-md backdrop-brightness-[.30]"
+    id="menu"
+    role="menu"
+    in:fly={{ duration: 400, delay: 200, y: 300 }}
+    out:fly={{ duration: 400, delay: 200, y: 300 }}
+  >
 
 {#if isMenuOpen}
   <div
