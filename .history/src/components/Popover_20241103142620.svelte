@@ -61,10 +61,10 @@
 				<a href="/concepts" class="hover:underline" tabindex="0" role="menuitem">CLOUD CONCEPTS</a>
 			</li>
 			<li role="none">
-			<a href="/services" class="hover:underline" tabindex="0" role="menuitem">AZURE CORE SERVICES</a>
+			<a href="/projects" class="hover:underline" tabindex="0" role="menuitem">AZURE CORE SERVICES</a>
 			</li>
 			<li role="none">
-				<a href="/security" class="hover:underline" tabindex="0" role="menuitem">SECURITY & COMPLIANCE</a>
+				<a href="/contact" class="hover:underline" tabindex="0" role="menuitem">SECURITY & COMPLIANCE</a>
 			</li>
 		</ul>
 	</div>

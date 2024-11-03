@@ -3,7 +3,7 @@
 	// Define your plans as an array of objects
 	const plans = [
 		{
-			url: 'concepts',
+			url: '1',
 			image:
 				'https://plus.unsplash.com/premium_photo-1681488035387-675b10c6b4e6?q=80&w=1589&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 			name: 'Cloud Concepts',
@@ -14,7 +14,7 @@
 			]
 		},
 		{
-			url: 'services',
+			price: '2',
 			image:
 				'https://images.unsplash.com/photo-1667372459510-55b5e2087cd0?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 			name: 'Azure Core Services',
@@ -25,7 +25,7 @@
 			]
 		},
 		{
-			url: 'security',
+			price: '3',
 			image:
 				'https://plus.unsplash.com/premium_photo-1700830452756-1a3f4314e564?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 			name: 'Security, Privacy, Compliance & Trust',

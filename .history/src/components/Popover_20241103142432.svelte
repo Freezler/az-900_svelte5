@@ -55,17 +55,15 @@
 			class="flex h-full w-full flex-col place-items-center items-center justify-center gap-4 text-[--text-color] text-3xl"
 		>
 			<li role="none">
-				<a href="/" class="hover:underline" tabindex="0" role="menuitem">HOME</a>
+				<a href="/" class="hover:underline" tabindex="0" role="menuitem">Cloud Concepts</a>
 			</li>
 			<li role="none">
-				<a href="/concepts" class="hover:underline" tabindex="0" role="menuitem">CLOUD CONCEPTS</a>
+				<a href="/about" class="hover:underline" tabindex="0" role="menuitem">ABOUT ME</a>
 			</li>
 			<li role="none">
-			<a href="/services" class="hover:underline" tabindex="0" role="menuitem">AZURE CORE SERVICES</a>
+				<a href="/projects" class="hover:underline" tabindex="0" role="menuitem">PROJECTS</a>
 			</li>
-			<li role="none">
-				<a href="/security" class="hover:underline" tabindex="0" role="menuitem">SECURITY & COMPLIANCE</a>
-			</li>
+
 		</ul>
 	</div>
 {/if}
