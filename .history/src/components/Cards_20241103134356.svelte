@@ -44,7 +44,7 @@
 >
 	{#each plans as plan}
 		<div
-			class=" subgrid grid w-full place-items-center gap-4 mb-8 rounded-2xl border-2 border-blue-900 backdrop-brightness-[.50] backdrop-blur-md pb-6"
+			class=" subgrid grid w-full place-items-center gap-4 mb-8 rounded-2xl border-2 border-yellow-300 bg-gray-200/80 pb-6"
 		>
 			<img
 				src={plan.image}

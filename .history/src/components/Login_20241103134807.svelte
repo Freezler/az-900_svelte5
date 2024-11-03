@@ -21,15 +21,15 @@
 	<div class="flex w-full max-w-4xl flex-col overflow-hidden rounded-lg shadow-lg md:flex-row">
 		<!-- Left side: Logo and Welcome message -->
 		<div
-			class="flex flex-col items-center justify-center bg-[url('/public/images/headImage.png')] bg-cover bg-center object-cover p-14 text-white md:w-1/2 "
+			class="flex flex-col items-center justify-center bg-[url('/public/images/headImage.png')] bg-cover bg-center object-cover p-14 text-white md:w-1/2"
 		>
 			<img
 				src="/public/images/Design 2.png"
 				alt="Ran form Logo"
 				class="mb-4 h-40 w-40 rounded-full"
 			/>
-			<h2 class="text-4xl font-semibold p-2 rounded-xl text-white backdrop-brightness-[.70] backdrop-blur-sm ">Good Evening {user}!</h2>
-			<p class="mt-2 text-center text-lg rounded-xl  p-2 backdrop-brightness-[.70] backdrop-blur-sm ">Log in to your account!</p>
+			<h2 class="text-4xl font-semibold text-blue-100">Good Evening {user}!</h2>
+			<p class="mt-2 text-center text-lg">Log in to your account!</p>
 		</div>
 
 		<!-- Right side: Login Form -->

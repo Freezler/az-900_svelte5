@@ -28,8 +28,8 @@
 				alt="Ran form Logo"
 				class="mb-4 h-40 w-40 rounded-full"
 			/>
-			<h2 class="text-4xl font-semibold p-2 rounded-xl text-white backdrop-brightness-[.70] backdrop-blur-sm ">Good Evening {user}!</h2>
-			<p class="mt-2 text-center text-lg rounded-xl  p-2 backdrop-brightness-[.70] backdrop-blur-sm ">Log in to your account!</p>
+			<h2 class="text-4xl font-semibold p-2 rounded-xl text-white backdrop-brightness-[.70] backdrop-blur-md ">Good Evening {user}!</h2>
+			<p class="mt-2 text-center text-lg  p-2 backdrop-brightness-[.70] backdrop-blur-md ">Log in to your account!</p>
 		</div>
 
 		<!-- Right side: Login Form -->

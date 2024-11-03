@@ -2,7 +2,6 @@
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
 	import { isColonToken } from 'typescript';
-	import { createEmitAndSemanticDiagnosticsBuilderProgram } from 'typescript';
 
 	onMount(() => {
 		document.addEventListener('click', (event) => {
@@ -28,19 +27,12 @@
 <button
 	on:click={toggle}
 	tabindex="0"
-	class=" z-100 fixed right-0 top-0 m-[22px] size-[85px] rounded-full border-4 border-yellow-400 text-xl text-yellow-300 transition-all hover:bg-[hsl(210,55%,8%,0.4)] backdrop-brightness-[.50]"
+	class=" z-100 fixed right-0 top-0 m-[22px] size-[85px] rounded-full border-4 border-yellow-400 text-6xl text-yellow-300 transition-all hover:bg-[hsl(210,55%,8%,0.4)] backdrop-brightness-[.50]"
 	aria-expanded={isMenuOpen}
 	aria-controls="menu"
 	aria-label="open menu"
 >
-
-	{#if isMenuOpen}
-		close menu
-	{/if}
-	{#if !isMenuOpen}
-		open menu
-	{/if}
-
+	menu
 </button>
 
 {#if isMenuOpen}

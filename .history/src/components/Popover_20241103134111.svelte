@@ -35,7 +35,7 @@
 >
 
 	{#if isMenuOpen}
-		close menu
+		open menu
 	{/if}
 	{#if !isMenuOpen}
 		open menu

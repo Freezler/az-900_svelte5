@@ -35,10 +35,10 @@
 >
 
 	{#if isMenuOpen}
-		close menu
+		open menu
 	{/if}
 	{#if !isMenuOpen}
-		open menu
+		close menu
 	{/if}
 
 </button>

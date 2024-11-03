@@ -33,14 +33,10 @@
 	aria-controls="menu"
 	aria-label="open menu"
 >
-
+	menu
 	{#if isMenuOpen}
-		close menu
+		open
 	{/if}
-	{#if !isMenuOpen}
-		open menu
-	{/if}
-
 </button>
 
 {#if isMenuOpen}
