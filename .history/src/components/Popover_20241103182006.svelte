@@ -35,10 +35,10 @@
 >
 
 	{#if !isMenuOpen}
-		<svg xmlns="http://www.w3.org/2000/svg" width="2.8rem" height="2.8rem" viewBox="0 0 12 24" {...$$props}><path fill="currentColor" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z" class="pointer-events-none"/></svg>
+		<svg xmlns="http://www.w3.org/2000/svg" width="2.8rem" height="2.6rem" viewBox="0 0 15 26" {...$$props}><path fill="currentColor" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z" class="pointer-events-none"/></svg>
 	{/if}
 	{#if isMenuOpen}
-		<svg xmlns="http://www.w3.org/2000/svg" width="2.8rem" height="2.8rem" viewBox="0 0 14 24" {...$$props}><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></svg>
+		<svg xmlns="http://www.w3.org/2000/svg" width="2.8rem" height="2.6rem" viewBox="0 0 15 23" {...$$props}><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></svg>
 
 	{/if}
 
