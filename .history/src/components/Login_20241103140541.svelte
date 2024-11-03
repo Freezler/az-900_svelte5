@@ -34,7 +34,7 @@
 
 		<!-- Right side: Login Form -->
 		<div
-			class="flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat p-24  md:w-1/2 bg-gradient-to-r from-[hsla(54,100%,64%,0.4)] 10%, to-[hsla(179,79%,43%,0.4)]"
+			class="flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat p-24  md:w-1/2 bg-gradient-to-tr from-[#1d4ed8] to-[hsl(224,64%,33%)] "
 		>
 			<!-- Google Login Button -->
 			<div

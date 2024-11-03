@@ -39,12 +39,12 @@
 </script>
 
 <section
-	class=" mx-auto my-16 grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 md:px-4 lg:grid-cols-3"
+	class="z- my-16 grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-4 md:px-4 lg:grid-cols-3"
 	in:fade={{ duration: 1000 }}
 >
 	{#each plans as plan}
 		<div
-			class=" subgrid grid w-full place-items-center gap-4 mb-8 rounded-2xl border-2 border-blue-900 pb-6"
+			class=" subgrid grid w-full place-items-center gap-4 mb-8 rounded-2xl border-2 border-blue-900 backdrop-brightness-[.50] backdrop-blur-md pb-6"
 		>
 			<img
 				src={plan.image}

@@ -28,13 +28,13 @@
 				alt="Ran form Logo"
 				class="mb-4 h-40 w-40 rounded-full"
 			/>
-			<h2 class="text-2xl font-semibold p-2 rounded-xl bg-slate-600/50  ">Good Evening {user}!</h2>
-			<p class="mt-2 text-center text-lg rounded-xl bg-slate-600/50  p-2 ">Log in to your account!</p>
+			<h2 class="text-4xl font-semibold p-2 rounded-xl text-white backdrop-blur-sm ">Good Evening {user}!</h2>
+			<p class="mt-2 text-center text-lg rounded-xl bg-slate-500/10  p-2 backdrop-brightness-[.70] backdrop-blur-sm ">Log in to your account!</p>
 		</div>
 
 		<!-- Right side: Login Form -->
 		<div
-			class="flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat p-24  md:w-1/2 bg-gradient-to-r from-[hsla(54,100%,64%,0.4)] 10%, to-[hsla(179,79%,43%,0.4)]"
+			class="flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat p-24  md:w-1/2"
 		>
 			<!-- Google Login Button -->
 			<div
