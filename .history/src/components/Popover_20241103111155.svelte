@@ -24,7 +24,7 @@
 <button
 	on:click={toggle}
 	tabindex="0"
-	class=" z-100 fixed rounded-full right-0 top-0 size-[85px]  m-[22px] border-4  border-yellow-400 text-6xl pb-2 text-yellow-300 hover:bg-[hsl(210,55%,8%,0.4)] transition-all"
+	class=" z-100 fixed rounded-full right-0 top-0 size-[88px]  m-[20px] border-4 text-6xl text-yellow-800 hover:bg-[hsl(210,55%,8%,0.4)] transition-all"
 	aria-expanded={isMenuOpen}
 	aria-controls="menu"
 	aria-label="open menu"
