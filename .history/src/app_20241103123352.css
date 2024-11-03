@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg-color:  hsla(210, 55%, 8%, 1);
+  --bg-gradient: 135deg, rgba(237, 249, 10,.7) 0%, rgba(216, 204, 37,0.7) 35%, rgba(0,212,255,0.7) 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  outline: 1p;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+

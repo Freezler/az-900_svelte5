@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg-color:  hsla(210, 55%, 8%, 1);
+  --bg-gradient: linear-gradient(90deg,0%,hsla(210, 55%, 8%, 1);)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+

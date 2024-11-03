@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --text-color:  rgb(16, 124, 239);
+  --bg-color: hsla(216%, 204, 37,0.7)
+  --bg-gradient: 135deg, rgba(237, 249, 10,.7) 0%, rgba(216, 204, 37,0.7) 35%, rgba(0,212,255,0.7) 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  outline: 1px dotted red;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+
