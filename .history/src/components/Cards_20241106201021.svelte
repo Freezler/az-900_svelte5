@@ -39,7 +39,7 @@
 </script>
 
 <section
-	class=" mx-auto mb-16 grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 md:px-8 lg:grid-cols-3"
+	class=" mx-auto mb-16 grid grid-cols-1 gap-4 px-2 md:grid-cols-2 md:gap-8 md:px-8 lg:grid-cols-3"
 	in:fade={{ duration: 600 }}
 >
 	{#each plans as plan}
@@ -63,7 +63,7 @@
 			<button
 
 				type="button"
-				class="mx-auto mb-8 w-[160px] rounded border bg-indigo-500 px-4 py-2 text-white"
+				class="mx-auto mb-8 w-[160px] rounded border bg-indigo-500 px-4 py-2 text-white hover:bg-[hsl(210,55%,80%,1)]"
 				><a href="/{plan.url}">Learn more</button
 			>
 		</div>

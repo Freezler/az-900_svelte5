@@ -10,7 +10,7 @@
 </script>
 
 <div
-	class="max-w-[100svw] z-100 mx-auto grid h-80 place-content-center place-items-center items-start mb-8 justify-center bg-[url('/public/images/headImage.png')] bg-cover bg-top"
+	class="max-w-[100svw] z-100 mx-auto grid h-80 place-content-center place-items-center items-start mb-12 justify-center bg-[url('/public/images/headImage.png')] bg-cover bg-top"
 >
 	<div class="grid backdrop-blur-[2px] px-4 rounded-lg backdrop-brightness-[.50] pb-4">
 		<h1

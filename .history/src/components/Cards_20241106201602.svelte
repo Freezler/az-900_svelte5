@@ -59,11 +59,7 @@
 				{#each plan.features as feature}
 					<p class="max-w-[40ch] py-1 text-pretty text-white">{feature}</p>
 				{/each}
-			</div>
-			<button
-
-				type="button"
-				class="mx-auto mb-8 w-[160px] rounded border bg-indigo-500 px-4 py-2 text-white"
+			</div"
 				><a href="/{plan.url}">Learn more</button
 			>
 		</div>

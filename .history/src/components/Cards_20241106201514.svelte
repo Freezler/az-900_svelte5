@@ -63,7 +63,7 @@
 			<button
 
 				type="button"
-				class="mx-auto mb-8 w-[160px] rounded border bg-indigo-500 px-4 py-2 text-white"
+				class="mx-auto mb-8 w-[160px] rounded border bg-indigo-500 px-4 py-2 text-white hover:bg-[hsl(210,55%,80%,1)] hover:filter dr-shadow(10px_10px_30px_hsl(210,55%,80%)) active:scale-[.98]"
 				><a href="/{plan.url}">Learn more</button
 			>
 		</div>

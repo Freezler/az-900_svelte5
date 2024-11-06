@@ -59,12 +59,12 @@
 				{#each plan.features as feature}
 					<p class="max-w-[40ch] py-1 text-pretty text-white">{feature}</p>
 				{/each}
-			</div>
+			</div>"
+				><a href="/{plan.url}">Learn mo
 			<button
 
 				type="button"
-				class="mx-auto mb-8 w-[160px] rounded border bg-indigo-500 px-4 py-2 text-white"
-				><a href="/{plan.url}">Learn more</button
+				class="mx-auto mb-8 w-[160px] rounded border bg-indigo-500 px-4 py-2 text-white hover:bg-[hsl(210,55%,80%,1)] hover:filter drop-shadow-xl hover:drop-shadow-(10px_10px_30px_hsl(210,55%,80%)) active:scale-[.98]re</button
 			>
 		</div>
 	{/each}

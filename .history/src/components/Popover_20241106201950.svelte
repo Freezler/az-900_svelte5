@@ -7,11 +7,11 @@
 <img
 	src="/public/images/Design 2.png"
 	alt="Ran form Logo"
-	class="fixed left-[16px] top-[16px] h-16 w-16 rounded-full"
+	class="fixed left-[16px] top-[16px] h-14 w-14 rounded-full"
 />
 <button
 	onclick={() => (showMenu = !showMenu)}
-	class="fixed right-[16px] top-[16px] flex h-14 w-14 items-center justify-center rounded-full bg-gray-200"
+	class="fixed right-[16px] top-[16px] flex h-12 w-12 items-center justify-center rounded-full bg-gray-200"
 >
 	<svg
 		xmlns="http://www.w3.org/2000/svg"

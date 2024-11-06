@@ -7,7 +7,7 @@
 <img
 	src="/public/images/Design 2.png"
 	alt="Ran form Logo"
-	class="fixed left-[16px] top-[16px] h-16 w-16 rounded-full"
+	class="fixed left-[16px] top-[16px] h-14 w-15 rounded-full"
 />
 <button
 	onclick={() => (showMenu = !showMenu)}
