@@ -6,12 +6,10 @@
 	const [send, receive] = crossfade({
 		duration: 600
 	});
-
-	const receiveTransition = (node, params) => receive(node, { ...params, key: params.key });
 </script>
 
 <button on:click={() => showMenu = !showMenu} class="flex absolute top-1 right-1 visible items-center justify-center w-12 h-12 bg-gray-200 rounded-full">
-	<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" in:receive={receiveTransition} out:send>
+	<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" in:receive out:send>
 		{#if showMenu}
 			<path
 				key="close"

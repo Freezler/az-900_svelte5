@@ -1,3 +1,4 @@
+/*************  ✨ Codeium Command 🌟  *************/
 <script>
 	let showMenu = false;
 	import { fly, crossfade } from 'svelte/transition';
@@ -6,15 +7,16 @@
 	const [send, receive] = crossfade({
 		duration: 600
 	});
-
-	const receiveTransition = (node, params) => receive(node, { ...params, key: params.key });
 </script>
 
 <button on:click={() => showMenu = !showMenu} class="flex absolute top-1 right-1 visible items-center justify-center w-12 h-12 bg-gray-200 rounded-full">
-	<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" in:receive={receiveTransition} out:send>
+	<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" in:receive out:send>
+	<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 		{#if showMenu}
 			<path
 				key="close"
+				in:receive={{ key: "close" }}
+				out:send={{ key: "close" }}
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				stroke-width="2"
@@ -23,6 +25,8 @@
 		{:else}
 			<path
 				key="open"
+				in:receive={{ key: "open" }}
+				out:send={{ key: "open" }}
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				stroke-width="2"
@@ -49,3 +53,5 @@
 	</ul>
 {/if}
 
+
+/******  5b6eddec-6db6-4bd1-9cb2-a3eea176a9ab  *******/
