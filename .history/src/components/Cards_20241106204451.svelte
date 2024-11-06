@@ -40,11 +40,11 @@
 
 <section
 	class=" mx-auto mb-16 grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 md:px-8 lg:grid-cols-3"
-	transition:fade={{ duration: 600 }}
+	in:fade={{ duration: 600 }}
 >
 	{#each plans as plan}
 		<div
-			class="grid w-full place-items-center gap-4 mb-4 rounded-2xl border-2 border-blue-900 pb-6"
+			class=" subgrid grid w-full place-items-center gap-4 mb-4 rounded-2xl border-2 border-blue-900 pb-6"
 		>
 			<img
 				src={plan.image}

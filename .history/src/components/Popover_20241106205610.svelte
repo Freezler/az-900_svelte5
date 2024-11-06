@@ -40,7 +40,7 @@
 
 {#if showMenu}
 	<ul
-		class="items-center justify-center fixed bottom-0 right-0 z-100 grid h-[50vh] w-[100vw] place-content-center bg-blue-600/20 backdrop-blur text-white uppercase text-center text-2xl"
+		class="items-center justify-center fixed bottom-0 right-0 z-100 grid h-[50vh] w-full max-w-[place-content-center bg-blue-600/20 backdrop-blur text-white uppercase text-center text-2xl"
 		transition:fly={{ y: 100, duration: 420, easing: cubicInOut }}
 	>
 		<li class="px-2 py-4 w-[80vw] underline underline-offset-4 transition-colors ease-linear duration-600 hover:bg-blue-600/20 rounded-t-lg  bg-blue-200/30">

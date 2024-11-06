@@ -29,17 +29,17 @@
 </script>
 
 <div
-	class="grid h-full w-[100vw] place-items-center items-center justify-center"
-	transition:fade={{ duration: 400 }}
+	class="grid h-full w-[full] place-items-center items-center justify-center"
+	transition:fade={{ duration: 600 }}
 >
 <header><Popover /></header>
 
-	<div class="bg-blue-500/20  text-blue-400  grid gap-2 my-24 rounded-sm">
+	<div class="bg-[--bg-color2] text-[--text-color] p-16 grid gap-2 my-36 rounded-sm">
 		<h1 class="text-[clamp(1rem,5vw,2.2rem)] text-center">{title}</h1>
 
 		{#each topics as topic}
 			<div
-				class="text-blue-100 mx-auto grid w-[100vw] md:w-[100vw] max-w-5xl place-items-center items-center justify-center gap-4"
+				class="text-[--text-color] mx-auto grid w-[80vw] md:w-[80vw] max-w-5xl place-items-center items-center justify-center gap-4 p-6"
 			>
 				<h2 class="text-3xl mb-4">{topic.category}</h2>
 

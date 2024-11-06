@@ -40,22 +40,22 @@
 
 <section
 	class=" mx-auto mb-16 grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 md:px-8 lg:grid-cols-3"
-	transition:fade={{ duration: 600 }}
+	in:fade={{ duration: 600 }}
 >
 	{#each plans as plan}
 		<div
-			class="grid w-full place-items-center gap-4 mb-4 rounded-2xl border-2 border-blue-900 pb-6"
+			class=" subgrid grid w-full place-items-center gap-4 mb-4 rounded-2xl border-2 border-blue-900 pb-6"
 		>
 			<img
 				src={plan.image}
-				class="object-fit h-[208px] w-full object-cover rounded-t-xl aspect-16/9"
+				class="object-fit h-[208px] w-full object-cover rounded-t-xl"
 				loading="lazy"
 				alt="tech used"
 			/>
-			<div class=" grid">
-				<h2 class="text-xl  grid font-bold text-white py-6">{plan.name}</h2>
+			<div class="subgrid grid">
+				<h2 class="subgrid text-xl grid font-bold text-white py-6">{plan.name}</h2>
 			</div>
-			<div class="grid-col-4 grid text-pretty  text-sm pb-8 ">
+			<div class="subgrid grid-col-4 grid text-pretty  text-sm pb-8 ">
 				{#each plan.features as feature}
 					<p class="max-w-[40ch] py-1 text-pretty text-white">{feature}</p>
 				{/each}

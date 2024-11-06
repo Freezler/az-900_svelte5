@@ -34,7 +34,7 @@
 >
 <header><Popover /></header>
 
-	<div class="bg-blue-500/20  text-blue-400  grid gap-2 my-24 rounded-sm">
+	<div class="bg-blue-500/20  text-blue-400  grid gap-2 my-22 rounded-sm">
 		<h1 class="text-[clamp(1rem,5vw,2.2rem)] text-center">{title}</h1>
 
 		{#each topics as topic}

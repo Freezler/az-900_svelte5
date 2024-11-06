@@ -34,12 +34,12 @@
 >
 <header><Popover /></header>
 
-	<div class="bg-blue-500/20  text-blue-400  grid gap-2 my-24 rounded-sm">
+	<div class="bg-blue-500/20 backdrop-blur-xl text-[--text-color] p-16 grid gap-2 my-36 rounded-sm">
 		<h1 class="text-[clamp(1rem,5vw,2.2rem)] text-center">{title}</h1>
 
 		{#each topics as topic}
 			<div
-				class="text-blue-100 mx-auto grid w-[100vw] md:w-[100vw] max-w-5xl place-items-center items-center justify-center gap-4"
+				class="text-bl mx-auto grid w-[100vw] md:w-[80vw] max-w-5xl place-items-center items-center justify-center gap-4 p-2"
 			>
 				<h2 class="text-3xl mb-4">{topic.category}</h2>
 

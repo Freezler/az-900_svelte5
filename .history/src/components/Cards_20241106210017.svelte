@@ -40,7 +40,7 @@
 
 <section
 	class=" mx-auto mb-16 grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 md:px-8 lg:grid-cols-3"
-	transition:fade={{ duration: 600 }}
+
 >
 	{#each plans as plan}
 		<div
@@ -57,7 +57,7 @@
 			</div>
 			<div class="grid-col-4 grid text-pretty  text-sm pb-8 ">
 				{#each plan.features as feature}
-					<p class="max-w-[40ch] py-1 text-pretty text-white">{feature}</p>
+					<p class="max-w-[42ch] py-1 text-pretty text-white">{feature}</p>
 				{/each}
 			</div>
 			<button
