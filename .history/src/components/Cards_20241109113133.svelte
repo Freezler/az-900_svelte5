@@ -38,7 +38,7 @@
 	];
 </script>
 
-<section class="my-24grid grid-cols-1 gap-4 px-4 lg:grid-cols-2 md:gap-8 xl:grid-cols-3">
+<section class="my-24 mx-grid grid-cols-1 gap-4 px-4 lg:grid-cols-2 md:gap-8 xl:grid-cols-3">
 	{#each concepts as concept}
 		<div
 			class="my-0 gap-2 grid grid-cols-subgrid place-items-center items-center justify-center rounded-xl border border-blue-900 pb-6"
