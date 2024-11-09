@@ -4,17 +4,17 @@
 	/**
 	 * @param {any} response
 	 */
-	function googleLoginEndpoint(response) {
-	  console.log('Google login successful:', response);
-	}
+	// function googleLoginEndpoint(response) {
+	//   console.log('Google login successful:', response);
+	// }
 
-	onMount(() => {
-	  const script = document.createElement("script");
-	  script.src = "https://accounts.google.com/gsi/client";
-	  script.async = true;
-	  script.defer = true;
-	  document.head.appendChild(script);
-	});
+	// onMount(() => {
+	//   const script = document.createElement("script");
+	//   script.src = "https://accounts.google.com/gsi/client";
+	//   script.async = true;
+	//   script.defer = true;
+	//   document.head.appendChild(script);
+	// });
 </script>
 
 <div class="relative flex min-h-[60vh] items-center justify-center py-16 ">

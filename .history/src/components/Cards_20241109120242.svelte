@@ -71,7 +71,7 @@
 			<button
 				type="button"
 				class="mx-auto my-6 w-[160px] grid-cols-subgrid rounded-xl border bg-blue-600/30 px-8 py-4 text-white"
-				><a href="/{concept.url}">Learn more</a></button
+				><a href="/{concept.url}">Learn more</a>{goto}</button
 			>
 		</div>
 	{/each}

@@ -1,5 +1,5 @@
 <script>
-	import { goto } from '$app/navigation';
+	import { fade, fly, slide } from 'svelte/transition';
 	// Define your plans as an array of objects
 	const concepts = [
 		{
@@ -38,39 +38,30 @@
 	];
 </script>
 
-<section class="my-24 grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 md:px-8 xl:grid-cols-3">
+<section class="my-24 grid grid-cols-1 gap-4 md:px-8 md:grid-cols-2 md:gap-8 xl:grid-cols-3">
 	{#each concepts as concept}
 		<div
-			class="z-100 my-0 grid grid-cols-subgrid place-items-center items-center justify-center gap-2 overflow-hidden rounded-2xl border-2 border-blue-900 pb-6"
+			class="my-0 gap-2 grid grid-cols-subgrid place-items-center items-center justify-center rounded-3xl border-4 border-blue-900 pb-6"
 		>
 			<img
 				src={concept.image}
-				class="aspect-[14/9] h-[220px] w-[100%] min-w-0 grid-cols-subgrid border-b-2 object-cover object-center"
+				class="h-[220px] w-[100%] grid-cols-subgrid rounded-t-2xl border-b-2 min-w-0object-cover aspect-[16/9] object-center"
 				loading="lazy"
 				alt="tech used"
 			/>
 			<div class="grid-cols-subgrid">
-				<h2
-					class="text-md border-b border-blue-900 pt-8 font-semibold text-white md:text-xl lg:text-2xl"
-				>
-					{concept.name}
-				</h2>
+				<h2 class="border-b border-blue-900  pt-8 text-md md:text-xl lg:text-2xl font-semibold text-white">{concept.name}</h2>
 			</div>
 
-			<div
-				class="text-md grid-cols-subgrid place-items-center items-center justify-center text-pretty text-center md:text-lg lg:text-xl"
-			>
+			<div class="grid-cols-subgrid  place-items-center items-center justify-center text-center text-pretty text-md md:text-lg lg:text-xl">
 				{#each concept.features as feature}
-					<p
-						class="lg:text-md mx-auto my-4 w-[45ch] text-balance px-2 text-xs font-thin text-white md:text-sm"
-					>
-						{feature}
-					</p>
+					<p class="my-4 mx-auto text-balance font-thin text-xs md:text-sm lg:text-md w-[45ch] px-2 text-white">{feature}</p>
+
 				{/each}
 			</div>
 			<button
 				type="button"
-				class="mx-auto my-6 w-[160px] grid-cols-subgrid rounded-xl border bg-blue-600/30 px-8 py-4 text-white"
+				class="grid-cols-subgrid mx-auto my-6 w-[160px] rounded-xl border bg-blue-600/30 px-8 py-4 text-white"
 				><a href="/{concept.url}">Learn more</a></button
 			>
 		</div>

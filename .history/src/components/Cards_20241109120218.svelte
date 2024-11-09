@@ -1,5 +1,5 @@
 <script>
-	import { goto } from '$app/navigation';
+
 	// Define your plans as an array of objects
 	const concepts = [
 		{

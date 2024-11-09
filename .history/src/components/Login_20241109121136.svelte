@@ -4,17 +4,17 @@
 	/**
 	 * @param {any} response
 	 */
-	function googleLoginEndpoint(response) {
-	  console.log('Google login successful:', response);
-	}
+	// function googleLoginEndpoint(response) {
+	//   console.log('Google login successful:', response);
+	// }
 
-	onMount(() => {
-	  const script = document.createElement("script");
-	  script.src = "https://accounts.google.com/gsi/client";
-	  script.async = true;
-	  script.defer = true;
-	  document.head.appendChild(script);
-	});
+	// onMount(() => {
+	//   const script = document.createElement("script");
+	//   script.src = "https://accounts.google.com/gsi/client";
+	//   script.async = true;
+	//   script.defer = true;
+	//   document.head.appendChild(script);
+	// });
 </script>
 
 <div class="relative flex min-h-[60vh] items-center justify-center py-16 ">
@@ -69,11 +69,11 @@
 			</button>
 
 			<!-- Sign up and Terms Links -->
-			<div class=" w-full text-center">
+			<div class="place-items-center  w-full text-center">
 				<p class="text-sm text-red-300">
 					Don't have an account? <a href="_blank" class="text-blue-600 hover:underline">Sign up</a>
 				</p>
-				<p class="mt-0 text-xs text-gray-500 w-[50ch]">
+				<p class="mt-2 text-xs text-gray-500 w-[50ch]">
 					By continuing, you agree to our <a href="_blank" target="_blank" class="hover:underline"
 						>Terms of Service</a
 					>

@@ -4,17 +4,17 @@
 	/**
 	 * @param {any} response
 	 */
-	function googleLoginEndpoint(response) {
-	  console.log('Google login successful:', response);
-	}
+	// function googleLoginEndpoint(response) {
+	//   console.log('Google login successful:', response);
+	// }
 
-	onMount(() => {
-	  const script = document.createElement("script");
-	  script.src = "https://accounts.google.com/gsi/client";
-	  script.async = true;
-	  script.defer = true;
-	  document.head.appendChild(script);
-	});
+	// onMount(() => {
+	//   const script = document.createElement("script");
+	//   script.src = "https://accounts.google.com/gsi/client";
+	//   script.async = true;
+	//   script.defer = true;
+	//   document.head.appendChild(script);
+	// });
 </script>
 
 <div class="relative flex min-h-[60vh] items-center justify-center py-16 ">
@@ -34,7 +34,7 @@
 
 		<!-- Right side: Login Form -->
 		<div
-			class="flex flex-col items-center justify-center  h-[50vh] bg-blue-600/40 backdrop-blur pt-8 "
+			class="flex flex-col items-center justify-center  h-[50vh] bg-blue-600/40 backdrop-blur pt-8 mb-8"
 		>
 			<!-- Google Login Button -->
 			<div
@@ -73,7 +73,7 @@
 				<p class="text-sm text-red-300">
 					Don't have an account? <a href="_blank" class="text-blue-600 hover:underline">Sign up</a>
 				</p>
-				<p class="mt-0 text-xs text-gray-500 w-[50ch]">
+				<p class="mt-2 text-xs text-gray-500 w-[50ch]">
 					By continuing, you agree to our <a href="_blank" target="_blank" class="hover:underline"
 						>Terms of Service</a
 					>
