@@ -41,11 +41,11 @@
 <section class="my-24 grid grid-cols-1 gap-4 px-4 md:grid-cols-2 md:gap-8 xl:grid-cols-3">
 	{#each concepts as concept}
 		<div
-			class="my-0 gap-2 grid grid-cols-subgrid place-items-center items-center justify-center rounded-2xl border border-blue-900 pb-6"
+			class="my-0 gap-2 grid grid-cols-subgrid place-items-center items-center justify-center rounded-xl border border-blue-900 pb-6"
 		>
 			<img
 				src={concept.image}
-				class="h-[220px] w-full grid-cols-subgrid rounded-t-2xl object-cover aspect-[16/9] object-center"
+				class="h-[220px] w-full grid-cols-subgrid rounded-t-md object-cover aspect-[16/9] object-center"
 				loading="lazy"
 				alt="tech used"
 			/>

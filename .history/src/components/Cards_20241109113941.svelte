@@ -45,7 +45,7 @@
 		>
 			<img
 				src={concept.image}
-				class="h-[220px] w-full grid-cols-subgrid rounded-t-2xl object-cover aspect-[16/9] object-center"
+				class="h-[220px] w-full grid-cols-subgrid rounded-t-md object-cover aspect-[16/9] object-center"
 				loading="lazy"
 				alt="tech used"
 			/>
