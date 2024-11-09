@@ -58,7 +58,7 @@
 			</div>
 
 			<div
-				class=" row-span-12 my-5 w-full grid grid-rows-subgrid place-items-start items-start gap-4 text-pretty border border-transparent bg-sky-500/10 px-4 py-6 text-center"
+				class=" row-span-12 my-5 w-full grid grid-rows-subgrid place-items-start items-start gap-4 text-pretty rounded-xl border border-transparent bg-sky-500/10 px-4 py-4 text-center"
 			>
 				{#each concept.features as feature}
 					<h3

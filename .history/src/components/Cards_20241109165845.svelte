@@ -43,7 +43,7 @@
 >
 	{#each concepts as concept}
 		<div
-			class="   grid grid-rows-[172px_64px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-sky-600/10 pb-12 shadow-[0_2px_22px_rgba(255,255,99,0.4)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]"
+			class="   grid grid-rows-[172px_80px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-yellow-600/10 pb-12 shadow-[0_2px_22px_rgba(255,255,99,0.4)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]"
 		>
 			<img
 				src={concept.image}
@@ -52,13 +52,13 @@
 				alt="concept"
 			/>
 			<div class="row-span-2 grid grid-cols-subgrid place-items-center items-center justify-center">
-				<h2 class="] mt-[16px] text-xl font-semibold uppercase tracking-wide text-[--text-color]">
+				<h2 class="] mt-[24px] text-xl font-semibold uppercase tracking-wide text-[--text-color]">
 					{concept.name}
 				</h2>
 			</div>
 
 			<div
-				class=" row-span-12 my-5 w-full grid grid-rows-subgrid place-items-start items-start gap-4 text-pretty border border-transparent bg-sky-500/10 px-4 py-6 text-center"
+				class="h-[600px] row-span-12 my-6 grid grid-rows-subgrid place-items-start items-start gap-4 text-pretty rounded-xl border border-transparent bg-sky-500/20 px-4 py-6 text-center"
 			>
 				{#each concept.features as feature}
 					<h3
@@ -69,7 +69,7 @@
 			</div>
 			<button
 				type="button"
-				class="mx-auto mt-4 w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-base font-semibold uppercase text-[--text-color] transition duration-[420ms] hover:bg-sky-500 hover:text-white hover:shadow-[2px_2px_42px_rgb(65,183,255,0.9)] md:text-lg lg:text-lg"
+				class="mx-auto w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-base font-semibold uppercase text-[--text-color] transition duration-[420ms] hover:bg-sky-500 hover:text-white hover:shadow-[2px_2px_42px_rgb(65,183,255,0.9)] md:text-lg lg:text-lg"
 				><a href="/{concept.url}">Learn more</a></button
 			>
 		</div>

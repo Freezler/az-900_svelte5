@@ -52,13 +52,13 @@
 				alt="concept"
 			/>
 			<div class="row-span-2 grid grid-cols-subgrid place-items-center items-center justify-center">
-				<h2 class="] mt-[16px] text-xl font-semibold uppercase tracking-wide text-[--text-color]">
+				<h2 class="] mt-[24px] text-xl font-semibold uppercase tracking-wide text-[--text-color]">
 					{concept.name}
 				</h2>
 			</div>
 
 			<div
-				class=" row-span-12 my-5 w-full grid grid-rows-subgrid place-items-start items-start gap-4 text-pretty border border-transparent bg-sky-500/10 px-4 py-6 text-center"
+				class=" row-span-12 my-5 w-full grid grid-rows-subgrid place-items-start items-start gap-4 text-pretty rounded-xl border border-transparent bg-sky-500/10 px-4 py-4 text-center"
 			>
 				{#each concept.features as feature}
 					<h3
