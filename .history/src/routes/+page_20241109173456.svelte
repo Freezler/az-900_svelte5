@@ -10,8 +10,8 @@
 	<Popover />
 	<Header />
 </header>
-<main >
+<main class="">
 	<section><Cards /></section>
 	<aside><Toggle /></aside>
-	<footer><Login /></footer>
 </main>
+<footer><Login /></footer>

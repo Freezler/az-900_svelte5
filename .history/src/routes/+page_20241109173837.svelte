@@ -10,7 +10,7 @@
 	<Popover />
 	<Header />
 </header>
-<main >
+<main class="bg-gradient-to-br from-stone-950 via-gray-800 to-gray-900">
 	<section><Cards /></section>
 	<aside><Toggle /></aside>
 	<footer><Login /></footer>

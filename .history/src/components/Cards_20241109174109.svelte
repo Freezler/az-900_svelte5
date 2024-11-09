@@ -71,7 +71,7 @@
 			</div>
 			<button
 				type="button"
-				class="mx-auto mt-3 w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-base font-semibold uppercase text-[--text-color] transition duration-[420ms] hover:bg-sky-500 hover:text-white hover:shadow-[2px_2px_22px_rgb(65,183,255,0.9)] md:text-lg lg:text-lg"
+				class="mx-auto mt-3 w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-base font-semibold uppercase text-[--text-color] transition duration-[420ms] hover:bg-sky-500 hover:text-white hover:shadow-[2px_2px_42px_rgb(65,183,255,0.9)] md:text-lg lg:text-lg"
 				><a href="/{concept.url}">Learn more</a></button
 			>
 		</div>

@@ -7,11 +7,10 @@
 </script>
 
 <header class="">
-	<Popover />
-	<Header />
+	<Popover />2
 </header>
-<main >
+<main class="bg-gray-50">
 	<section><Cards /></section>
 	<aside><Toggle /></aside>
-	<footer><Login /></footer>
 </main>
+<footer><Login /></footer>

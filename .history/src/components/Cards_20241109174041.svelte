@@ -45,7 +45,7 @@
 >
 	{#each concepts as concept}
 		<div
-			class=" pt-1  grid grid-rows-[148px_64px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-sky-600/10 pb-9 shadow-[0_0px_22px_rgba(255,255,99,0.2)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]"
+			class=" pt-1  grid grid-rows-[148px_64px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-sky-600/10 pb-9 shadow-[0_2px_22px_rgba(255,255,99,0.2)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]"
 		>
 			<img
 				src={concept.image}
@@ -71,7 +71,7 @@
 			</div>
 			<button
 				type="button"
-				class="mx-auto mt-3 w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-base font-semibold uppercase text-[--text-color] transition duration-[420ms] hover:bg-sky-500 hover:text-white hover:shadow-[2px_2px_22px_rgb(65,183,255,0.9)] md:text-lg lg:text-lg"
+				class="mx-auto mt-3 w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-base font-semibold uppercase text-[--text-color] transition duration-[420ms] hover:bg-sky-500 hover:text-white hover:shadow-[2px_2px_42px_rgb(65,183,255,0.9)] md:text-lg lg:text-lg"
 				><a href="/{concept.url}">Learn more</a></button
 			>
 		</div>
