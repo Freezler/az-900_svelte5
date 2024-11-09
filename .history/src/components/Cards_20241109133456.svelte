@@ -70,7 +70,7 @@
 			</div>
 			<button
 				type="button"
-				class="mx-auto my-6 w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-[--text-color] hover:bg-sky-500 hover:text-white transition duration-[300ms] hover:shadow-[2px_2px_42px_rgb(122,122,0,0.6)] text-base font-semibold md:text-lg lg:text-lg uppercase"
+				class="mx-auto my-6 w-[160px] grid-cols-subgrid rounded-xl border bg- px-8 py-4 text-white"
 				><a href="/{concept.url}">Learn more</a></button
 			>
 		</div>
