@@ -8,7 +8,7 @@
 		}
 	}
 </script>
-
+<div on:click|self={clickOutside}>
 	<!-- Your existing code -->
 
 <img

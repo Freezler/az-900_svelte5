@@ -2,14 +2,8 @@
 	import { cubicInOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
 	let showMenu: boolean = false;
-	const clickOutside = () => {
-		if (showMenu) {
-			showMenu = false;
-		}
-	}
+	const clickO
 </script>
-
-	<!-- Your existing code -->
 
 <img
 	src="/public/images/Design 2.png"

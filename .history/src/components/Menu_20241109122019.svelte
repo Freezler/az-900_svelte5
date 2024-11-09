@@ -8,9 +8,9 @@
 		}
 	}
 </script>
-
+<div on:click|self={clickOutside}>
 	<!-- Your existing code -->
-
+</div>
 <img
 	src="/public/images/Design 2.png"
 	alt="Ran form Logo"

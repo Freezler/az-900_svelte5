@@ -8,9 +8,11 @@
 		}
 	}
 </script>
-
+/*************  ✨ Codeium Command ⭐  *************/
+<div on:click|self={clickOutside}>
 	<!-- Your existing code -->
-
+</div>
+/******  40236d01-8133-4e72-89ac-22b20cfbfd5c  *******/
 <img
 	src="/public/images/Design 2.png"
 	alt="Ran form Logo"

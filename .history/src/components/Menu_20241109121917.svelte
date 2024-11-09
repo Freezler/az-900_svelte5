@@ -4,12 +4,8 @@
 	let showMenu: boolean = false;
 	const clickOutside = () => {
 		if (showMenu) {
-			showMenu = false;
-		}
 	}
 </script>
-
-	<!-- Your existing code -->
 
 <img
 	src="/public/images/Design 2.png"

@@ -3,13 +3,9 @@
 	import { fly } from 'svelte/transition';
 	let showMenu: boolean = false;
 	const clickOutside = () => {
-		if (showMenu) {
-			showMenu = false;
-		}
+		showError({ statusCode: , statusMessage: "" })
 	}
 </script>
-
-	<!-- Your existing code -->
 
 <img
 	src="/public/images/Design 2.png"

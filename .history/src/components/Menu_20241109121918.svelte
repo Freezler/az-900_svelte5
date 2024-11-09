@@ -9,8 +9,6 @@
 	}
 </script>
 
-	<!-- Your existing code -->
-
 <img
 	src="/public/images/Design 2.png"
 	alt="Ran form Logo"

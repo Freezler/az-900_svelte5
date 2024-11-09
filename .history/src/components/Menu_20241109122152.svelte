@@ -8,7 +8,7 @@
 		}
 	}
 </script>
-
+<di>
 	<!-- Your existing code -->
 
 <img
@@ -64,3 +64,4 @@
 		</li>
 	</ul>
 {/if}
+</di>
