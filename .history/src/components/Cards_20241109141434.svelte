@@ -38,31 +38,31 @@
 	];
 </script>
 
-<section class="py-8 grid gap-8 md:grid-cols-2 md:gap-8 md:px-8 xl:grid-cols-3 grid-rows-1">
+<section class="py-8 grid gap-8 md:grid-cols-2 md:gap-8 md:px-8 xl:grid-cols-3">
 	{#each concepts as concept}
 		<div
-			class=" my-0  grid  place-items-center  overflow-hidden rounded-2xl border-2 border-[--text-color] pb-6 shadow-[0_4px_12px_rgb(122,122,0,0.6)] transition duration-300 hover:scale-[1.01]   bg-yellow-600/10 hover:shadow-[0_8px_22px_rgb(122,122,0,0.6)] "
+			class="z-100 my-0  grid  place-items-center  overflow-hidden rounded-2xl border-2 border-[--text-color] pb-6 shadow-[0_4px_12px_rgb(122,122,0,0.6)] transition duration-300 hover:scale-[1.01]   bg-yellow-600/10 hover:shadow-[0_8px_22px_rgb(122,122,0,0.6)] "
 		>
 			<img
 				src={concept.image}
-				class=" w-full h-[22vh]  border-b-2 border-[--text-color] object-cover object-center"
+				class=" w-full h-[182px]  border-b-2 border-[--text-color] object-cover object-center"
 				loading="lazy"
-				alt="concept"
+				alt="tech used"
 			/>
-			<div class="grid grid-cols-subgrid  place-items-center items-center justify-center">
+			<div class="grid-cols-subgrid  place-items-center items-center justify-center">
 				<h2
-					class="text-2xl uppercase  mt-6 font-semibold text-[--text-color] tracking-wide  "
+					class="text-xl border-b border-[--text-color] font-semibold text-[--text-color] md:text-2xl  "
 				>
 					{concept.name}
 				</h2>
 			</div>
 
 			<div
-				class="my-6  p-4 rounded-xl bg-sky-500/20  grid grid-rows-subgrid place-items-start items-start text-pretty text-center gap-4 row-span-12 "
+				class="grid grid-cols-subgrid place-items-start items-start text-pretty text-center gap-4 col-span-1 "
 			>
 				{#each concept.features as feature}
 					<p
-						class="mx-auto w-[35ch] text-balance px-0  font-normal text-sky-200  text-sm  lg:text-[16px] border-b-2 border-[--text-color] leading-tight tracking-normal "
+						class="mx-auto w-[35ch] text-balance px-0  font-normal text-[--text-color]  text-sm  lg:text-[16px]"
 					>
 						{feature}
 					</p>
@@ -70,7 +70,7 @@
 			</div>
 			<button
 				type="button"
-				class="mx-auto  w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-3 text-[--text-color] hover:bg-sky-500 hover:text-white transition duration-[300ms] hover:shadow-[2px_2px_42px_rgb(122,122,0,0.6)] text-base font-semibold md:text-lg lg:text-lg uppercase"
+				class="mx-auto my-6 w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-[--text-color] hover:bg-sky-500 hover:text-white transition duration-[300ms] hover:shadow-[2px_2px_42px_rgb(122,122,0,0.6)] text-base font-semibold md:text-lg lg:text-lg uppercase"
 				><a href="/{concept.url}">Learn more</a></button
 			>
 		</div>

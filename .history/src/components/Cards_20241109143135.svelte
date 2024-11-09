@@ -45,24 +45,24 @@
 		>
 			<img
 				src={concept.image}
-				class=" w-full h-[22vh]  border-b-2 border-[--text-color] object-cover object-center"
+				class=" w-full h-[30vh]   border-b-2 border-[--text-color] object-cover object-center"
 				loading="lazy"
 				alt="concept"
 			/>
 			<div class="grid grid-cols-subgrid  place-items-center items-center justify-center">
 				<h2
-					class="text-2xl uppercase  mt-6 font-semibold text-[--text-color] tracking-wide  "
+					class="text-xl  mt-6 font-semibold text-[--text-color]  "
 				>
 					{concept.name}
 				</h2>
 			</div>
 
 			<div
-				class="my-6  p-4 rounded-xl bg-sky-500/20  grid grid-rows-subgrid place-items-start items-start text-pretty text-center gap-4 row-span-12 "
+				class="my-6 grid grid-rows-subgrid place-items-start items-start text-pretty text-center gap-4 row-span-12 "
 			>
 				{#each concept.features as feature}
 					<p
-						class="mx-auto w-[35ch] text-balance px-0  font-normal text-sky-200  text-sm  lg:text-[16px] border-b-2 border-[--text-color] leading-tight tracking-normal "
+						class="mx-auto w-[35ch] text-balance px-0  font-normal text-[--text-color]  text-sm  lg:text-[16px] border-b-2 border-blue-300 border-1"
 					>
 						{feature}
 					</p>
@@ -70,7 +70,7 @@
 			</div>
 			<button
 				type="button"
-				class="mx-auto  w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-3 text-[--text-color] hover:bg-sky-500 hover:text-white transition duration-[300ms] hover:shadow-[2px_2px_42px_rgb(122,122,0,0.6)] text-base font-semibold md:text-lg lg:text-lg uppercase"
+				class="mx-auto  w-[220px] grid-cols-subgrid rounded-3xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-3 text-[--text-color] hover:bg-sky-500 hover:text-white transition duration-[300ms] hover:shadow-[2px_2px_42px_rgb(122,122,0,0.6)] text-base font-semibold md:text-lg lg:text-lg uppercase"
 				><a href="/{concept.url}">Learn more</a></button
 			>
 		</div>
