@@ -45,11 +45,11 @@
 >
 	{#each concepts as concept}
 		<div
-			class=" pt-1  grid grid-rows-[192px_72px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-sky-600/10 pb-9 shadow-[0_2px_22px_rgba(255,255,99,0.4)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]"
+			class="   grid grid-rows-[192px_50px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-sky-600/10 pb-12 shadow-[0_2px_22px_rgba(255,255,99,0.4)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]"
 		>
 			<img
 				src={concept.image}
-				class=" z-10 h-[242px] pt-2  w-full border-b-2 border-[--text-color] object-cover object-center hover:border-[hsla(184,69%,60%,1)]"
+				class=" z-10 h-[216px] w-full border-b-2 border-[--text-color] object-cover object-center hover:border-[hsla(184,69%,60%,1)]"
 				loading="lazy"
 				alt="concept"
 			/>
