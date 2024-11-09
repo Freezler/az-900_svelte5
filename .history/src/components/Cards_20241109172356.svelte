@@ -45,16 +45,16 @@
 >
 	{#each concepts as concept}
 		<div
-			class=" pt-1  grid grid-rows-[148px_64px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-sky-600/10 pb-9 shadow-[0_2px_22px_rgba(255,255,99,0.4)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]"
+			class=" pt-1  grid grid-rows-[192px_72px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-sky-600/10 pb-9 shadow-[0_2px_22px_rgba(255,255,99,0.4)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]"
 		>
 			<img
 				src={concept.image}
-				class=" z-10 h-[172px] pt-2  w-full border-b-2 border-[--text-color] object-cover object-center hover:border-[hsla(184,69%,60%,1)]"
+				class=" z-10 h-[242px] pt-2  w-full border-b-2 border-[--text-color] object-cover object-center hover:border-[hsla(184,69%,60%,1)]"
 				loading="lazy"
 				alt="concept"
 			/>
 			<div class="row-span-2 grid grid-cols-subgrid place-items-center items-center justify-center">
-				<h2 class="] mt-[28px] text-xl font-semibold uppercase tracking-wide text-[--text-color]">
+				<h2 class="] mt-[16px] text-xl font-semibold uppercase tracking-wide text-[--text-color]">
 					{concept.name}
 				</h2>
 			</div>
@@ -64,7 +64,7 @@
 			>
 				{#each concept.features as feature}
 					<h3
-						class="border-b-1 mx-auto  grid w-[35ch]  grid-rows-subgrid text-balance border-[--text-color] px-0 text-[14px] font-normal leading-snug tracking-wider text-sky-200 py-0 first:border-t-2 first:pt-6 last:pb-6 last:border-b-2 lg:text-[16px] border-s-fuchsia-400 ">
+						class="border-b-1 mx-auto mt-4 grid w-[35ch]  grid-rows-subgrid text-balance border-[--text-color] px-0 text-[20px] font-normal leading-snug tracking-wider text-sky-200 py-0 first:border-t-2 first:pt-6 last:pb-6 last:border-b-2 lg:text-[16px] border-s-fuchsia-400 ">
 						{feature}
 					</h3>
 				{/each}
