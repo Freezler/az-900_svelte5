@@ -15,10 +15,12 @@
   padding    : 0;
   box-sizing : border-box;
   user-select: none;
-  /* outline : 1px dotted red; */
+  outline : 1px dotted red;
 }
 
-
+html{
+  max-width: 100vw;
+}
 
 body {
   font-family: 'Inter', sans-serif;

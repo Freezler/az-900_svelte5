@@ -15,7 +15,7 @@
   padding    : 0;
   box-sizing : border-box;
   user-select: none;
-  /* outline : 1px dotted red; */
+  outline : 1px dotted red;
 }
 
 

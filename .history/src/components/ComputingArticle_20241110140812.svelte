@@ -1,6 +1,6 @@
 <div class="grid items-center justify-center gap-4 place-self-center text-sky-100 w-[45ch] md:w-[75ch]  md:pl-8 py-6 mt-6">
 	<h2 class="text-3xl text-center text-sky-400">Cloud Computing</h2>
-	<p class="text-balance text-left w-[40ch] px-6 sm:w-[45ch] ml-8  sm:pl-4">
+	<p class="text-balance text-left w-[35ch] px-6 sm:w-[40ch] ml-8  sm:pl-4">
 		Cloud computing is a service delivery model that provides on-demand access to a shared pool of computing resources over the internet, such as servers, storage, networking, and analytics services.
 	</p>
 </div>
