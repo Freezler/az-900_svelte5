@@ -11,7 +11,7 @@
 		alt="cloudSolutions"
 		loading="lazy"
 
-		class="scale-[1.4]  -translate-y-10 w-full rounded-2xl overflow-hidden  mr-16 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
+		class="scale-[1.4]  -translate-y-0 w-full rounded-2xl overflow-hidden  mr-16 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
 	/>
 	<article
 		class=" text-sky-100 px-0 gap-0 flex flex-col  place-items-start items-cemter justify-center  w-[45ch] md:w-[52ch] md:mt-0 "

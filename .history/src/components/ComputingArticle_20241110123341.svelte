@@ -1,6 +1,6 @@
-<div class="grid items-center justify-center gap-4 place-self-center text-sky-100 w-[45ch] md:w-[75ch]  md:pl-8 py-8">
+<div class="grid items-center justify-center gap-4 place-self-center text-sky-100 w-[45ch] md:w-[75ch]  md:pl-8 pt-12">
 	<h2 class="text-3xl text-center text-sky-400">Cloud Computing</h2>
-	<p class="text-balance text-left w-[45ch] px-4">
+	<p class="text-pretty text-left ">
 		Cloud computing is a service delivery model that provides on-demand access to a shared pool of computing resources over the internet, such as servers, storage, networking, and analytics services.
 	</p>
 </div>
@@ -11,7 +11,7 @@
 		alt="cloudSolutions"
 		loading="lazy"
 
-		class="scale-[1.4]  -translate-y-10 w-full rounded-2xl overflow-hidden  mr-16 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
+		class="scale-[1.4]  -translate-y-12 w-full rounded-2xl overflow-hidden  mr-16 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
 	/>
 	<article
 		class=" text-sky-100 px-0 gap-0 flex flex-col  place-items-start items-cemter justify-center  w-[45ch] md:w-[52ch] md:mt-0 "
@@ -34,7 +34,7 @@
 			</li>
 			<li>
 				<strong>High Availability:</strong> The agreed level of operational uptime for the system.<br /> It
-				is a simple calculation of system uptime versus the whole lifetime of the system:<br /> <pre class="uppercase underline underline-offset-8 text-semibold text-center text-sky-400  pt-4 text-[clamp(0.5rem,2vw,1rem)]">availability = uptime / (uptime + downtime)</pre>
+				is a simple calculation of system uptime versus the whole lifetime of the system:<br /> <pre class="uppercase underline underline-offset-8 text-sem text-center text-sky-400  pt-4 text-[clamp(0.5rem,2vw,1rem)]">availability = uptime / (uptime + downtime)</pre>
 			</li>
 		</ul>
 	</article>
