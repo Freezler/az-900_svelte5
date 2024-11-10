@@ -1,6 +1,6 @@
-<div class="grid items-center justify-center gap-8 place-self-center text-sky-100 w-[45ch] pt-10">
+<div class="grid items-center justify-center gap-8 place-self-center text-sky-100 w-[40ch] pt-10">
 	<h2 class="text-3xl text-center text-sky-400">Cloud Computing</h2>
-	<p class="text-left rounded-3xl text-balance px-2 ml-12">
+	<p class="text-left rounded-3xl text-balance mr-2">
 		Cloud computing is a service delivery model that provides on-demand access to a shared pool of computing resources over the internet, such as servers, storage, networking, and analytics services.
 	</p>
 </div>
@@ -11,7 +11,7 @@
 		alt="cloudSolutions"
 		loading="lazy"
 
-		class=" w-[100vw] md:w-[672px]  mx-auto rounded-2xl overflow-hidden  pr-12 -mt-8 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
+		class=" w-full md:w-[672px]  mx-auto rounded-2xl overflow-hidden  pr-12 -mt-8 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
 	/>
 	<article
 		class=" text-sky-100 px-8 gap-8 flex flex-col w-[45ch]  place-items-start items-start justify-center"

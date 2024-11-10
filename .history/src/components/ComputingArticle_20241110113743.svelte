@@ -11,7 +11,7 @@
 		alt="cloudSolutions"
 		loading="lazy"
 
-		class=" w-[100vw] md:w-[672px]  mx-auto rounded-2xl overflow-hidden  pr-12 -mt-8 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
+		class=" w-] md:w-[672px]  mx-auto rounded-2xl overflow-hidden  pr-12 -mt-8 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
 	/>
 	<article
 		class=" text-sky-100 px-8 gap-8 flex flex-col w-[45ch]  place-items-start items-start justify-center"
