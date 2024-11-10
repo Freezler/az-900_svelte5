@@ -14,7 +14,7 @@
 		class="scale-[1.4] sm:-translate-y-16  -translate-y-16 w-full max-w-[520px] min-w-[400px] rounded-2xl overflow-hidden mr-16  md:mr-16 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
 	/>
 	<article
-		class=" text-sky-100 px-0 gap-0 flex flex-col  place-items-start items-cemter justify-center  w-[45ch] md:w-[52ch] md:mt-0 pb-8 md:pt-4 -mt-8"
+		class=" text-sky-100 px-0 gap-0 flex flex-col  place-items-start items-cemter justify-center  w-[45ch] md:w-[52ch] md:mt-0 pb-8 md:pt-4"
 	>
 		<h2 class="text-3xl pb-4 mx-auto text-sky-400 ">Key concepts</h2>
 		<ul class="list-inside list-disc pl-4 text-md md:w-[45ch] md:mx-auto [&>li]:text-8px] ">

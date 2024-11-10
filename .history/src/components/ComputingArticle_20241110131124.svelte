@@ -1,6 +1,6 @@
-<div class="grid items-center justify-center gap-4 place-self-center text-sky-100 w-[45ch] md:w-[75ch]  md:pl-8 py-6 mt-6">
+<div class="grid items-center justify-center gap-4 place-self-center text-sky-100 w-[45ch] md:w-[75ch]  md:pl-8 py-8 mt-8">
 	<h2 class="text-3xl text-center text-sky-400">Cloud Computing</h2>
-	<p class="text-balance text-left w-[45ch] px-6 sm:w-[62ch]  sm:pl-16">
+	<p class="text-balance text-left w-[45ch] px-4 sm:w-[65ch] sm:pl-16">
 		Cloud computing is a service delivery model that provides on-demand access to a shared pool of computing resources over the internet, such as servers, storage, networking, and analytics services.
 	</p>
 </div>
@@ -11,10 +11,10 @@
 		alt="cloudSolutions"
 		loading="lazy"
 
-		class="scale-[1.4] sm:-translate-y-16  -translate-y-16 w-full max-w-[520px] min-w-[400px] rounded-2xl overflow-hidden mr-16  md:mr-16 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
+		class="scale-[1.4] sm:-translate-y-16  -translate-y-18 w-full max-w-[520px] min-w-[400px] rounded-2xl overflow-hidden mr-16  md:mr-16 drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))] "
 	/>
 	<article
-		class=" text-sky-100 px-0 gap-0 flex flex-col  place-items-start items-cemter justify-center  w-[45ch] md:w-[52ch] md:mt-0 pb-8 md:pt-4 -mt-8"
+		class=" text-sky-100 px-0 gap-0 flex flex-col  place-items-start items-cemter justify-center  w-[45ch] md:w-[52ch] md:mt-0 pb-8"
 	>
 		<h2 class="text-3xl pb-4 mx-auto text-sky-400 ">Key concepts</h2>
 		<ul class="list-inside list-disc pl-4 text-md md:w-[45ch] md:mx-auto [&>li]:text-8px] ">
