@@ -17,7 +17,7 @@
 	// });
 </script>
 
-<div class="relative flex min-h-[60vh] items-center justify-center pt-16 ">
+<div class="relative flex min-h-[50vh] items-center justify-center pt-16 ">
 	<div class="flex w-full max-w-4xl flex-col overflow-hidden rounded-lg shadow-lg md:flex-row">
 		<!-- Left side: Logo and Welcome message -->
 		<div
@@ -34,7 +34,7 @@
 
 		<!-- Right side: Login Form -->
 		<div
-			class="flex flex-col items-center justify-center w-full sm:w-full md:w-1/2  text-center h-[264px] sm:h-auto bg-blue-600/40"
+			class="flex flex-col items-center justify-center w-full sm:w-1/2  text-center h-[396px] bg-blue-600/40"
 		>
 			<!-- Google Login Button -->
 			<!-- <div

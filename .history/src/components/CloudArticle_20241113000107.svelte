@@ -1,5 +1,5 @@
 <article class=" grid items-center justify-center gap-4 mt-8 place-self-center py-2 text-sky-100">
-	<header class="text-center">
+	<header class=">
 		<h2 class="text-3xl text-sky-400 mb-2">Cloud Computing</h2>
 	</header>
 	<p class="text-pretty w-[28ch] md:w-[30ch] lg:w-[45ch] xl:w-[60ch]text-center mx-auto">

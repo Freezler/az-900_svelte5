@@ -34,7 +34,7 @@
 
 		<!-- Right side: Login Form -->
 		<div
-			class="flex flex-col items-center justify-center w-full sm:w-full md:w-1/2  text-center h-[264px] sm:h-auto bg-blue-600/40"
+			class="flex flex-col items-center justify-center w-full sm:w-full md:w-1/2  text-center h-[264px] sm:h-[380px] bg-blue-600/40"
 		>
 			<!-- Google Login Button -->
 			<!-- <div

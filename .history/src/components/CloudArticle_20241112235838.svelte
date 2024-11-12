@@ -2,7 +2,7 @@
 	<header class="text-center">
 		<h2 class="text-3xl text-sky-400 mb-2">Cloud Computing</h2>
 	</header>
-	<p class="text-pretty w-[28ch] md:w-[30ch] lg:w-[45ch] xl:w-[60ch]text-center mx-auto">
+	<p class="text-pretty w-2/3 sm:w-2/4 text-left mx-auto">
 		Cloud computing is a service delivery model that provides on-demand access to a shared pool of
 		computing resources over the internet, such as servers, storage, networking, and analytics
 		services.

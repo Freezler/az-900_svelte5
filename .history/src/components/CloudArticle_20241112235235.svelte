@@ -2,7 +2,7 @@
 	<header class="text-center">
 		<h2 class="text-3xl text-sky-400 mb-2">Cloud Computing</h2>
 	</header>
-	<p class="text-pretty w-[28ch] md:w-[30ch] lg:w-[45ch] xl:w-[60ch]text-center mx-auto">
+	<p class="text-pretty w-2/3 sm:w-2/4 text-left mx-auto">
 		Cloud computing is a service delivery model that provides on-demand access to a shared pool of
 		computing resources over the internet, such as servers, storage, networking, and analytics
 		services.
@@ -28,7 +28,7 @@
 			<h2 class="text-3xl text-sky-400 mb-6 mt-4">Key concepts</h2>
 		</header>
 		<ul
-			class="mb-4 w-[28ch] list-inside list-disc text-left sm:w-[40ch] md:mx-auto md:w-[32ch] lg:w-[45ch] xl:w-[60ch] gap-2 grid grid-cols-1"
+			class="mb-4 w-[28ch] list-inside list-disc text-left sm:w-[45ch] md:mx-auto md:w-[35ch] lg:w-[50ch] xl:w-[60ch] g"
 		>
 			<p>
 				<strong>Scalability:</strong> The ability to scale, so allocate and deallocate resources at any

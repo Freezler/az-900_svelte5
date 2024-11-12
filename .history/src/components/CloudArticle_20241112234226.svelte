@@ -2,7 +2,7 @@
 	<header class="text-center">
 		<h2 class="text-3xl text-sky-400 mb-2">Cloud Computing</h2>
 	</header>
-	<p class="text-pretty w-[28ch] md:w-[30ch] lg:w-[45ch] xl:w-[60ch]text-center mx-auto">
+	<p class="text-pretty w-2/3 sm:w-2/4 text-left mx-auto">
 		Cloud computing is a service delivery model that provides on-demand access to a shared pool of
 		computing resources over the internet, such as servers, storage, networking, and analytics
 		services.
@@ -25,10 +25,10 @@
 		class="mx-auto  flex flex-col  text-sky-100 gap-2"
 	>
 		<header class="mx-auto ">
-			<h2 class="text-3xl text-sky-400 mb-6 mt-4">Key concepts</h2>
+			<h2 class="text-3xl text-sky-400 mb-6">Key concepts</h2>
 		</header>
 		<ul
-			class="mb-4 w-[28ch] list-inside list-disc text-left sm:w-[40ch] md:mx-auto md:w-[32ch] lg:w-[45ch] xl:w-[60ch] gap-2 grid grid-cols-1"
+			class="mb-4 w-[35ch] list-inside list-disc text-left sm:w-[45ch] md:mx-auto md:w-[35ch] lg:w-[50ch] xl:w-[60ch]"
 		>
 			<p>
 				<strong>Scalability:</strong> The ability to scale, so allocate and deallocate resources at any
@@ -50,8 +50,9 @@
 				It is a simple calculation of system uptime versus the whole lifetime of the system
 			</p>
 			<p
-				class="text-bold
-leading-7				pb-20 text-center
+				class="text-bold 
+
+				pb-20 text-center
 				text-sm w-[35ch]
 					uppercase text-sky-400 underline underline-offset-8"
 			>
