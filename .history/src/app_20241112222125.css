@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-text: hsla(71, 93%, 59%, 0.997);
+
+}
+
+* {
+  margin     : 0;
+  padding    : 0;
+  box-sizing : border-box;
+  user-select: none;
+  /* outline : 1px dotted red; */
+}
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+
+
+}
+

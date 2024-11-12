@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-header: hsla(199, 93%, 59%, 0.997);
+  --primary-text: hsla(199, 93%, 59%, 0.997);
+  --text-color: hsla(199, 93%, 59%, 0.997);
+  --bg-linear: linegradient(180deg, hsla(103, 93%, 59%, 0.997) 25%, hsla(240, 93%, 59%, 0.997) 60%, hsla(315, 93%, 59%, 0.997));
+  --card-bg-color:  hsla(199, 89%, 48%, 0.4);
+
+}
+
+* {
+  margin     : 0;
+  padding    : 0;
+  box-sizing : border-box;
+  user-select: none;
+  outline : 1px dotted red;
+}
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
