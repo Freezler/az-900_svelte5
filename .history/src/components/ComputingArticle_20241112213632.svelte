@@ -12,7 +12,7 @@
 </article>
 
 <section
-	class="z-10 grid grid-cols-1 place-items-center items-center justify-center px-8 gap-4 text-pretty pb-0 text-start md:grid-cols-2 "
+	class="z-10 grid grid-cols-1 place-items-center items-center justify-center px-8 gap-4 text-pretty pb-0 text-start md:grid-cols-2 min-w-50vw"
 >
 	<figure class=" ">
 		<img
@@ -24,7 +24,7 @@
 	</figure>
 
 	<div
-		class="items-center justify-center mx-auto flex   flex-col  gap-0 pb-0 text-sky-100 px-4 my-8   md:my-32"
+		class="items-center justify-center mx-auto flex   flex-col  gap-0 pb-0 text-sky-100 px-4 my-8   md:my-20"
 	>
 		<header class="mx-auto  py-4">
 			<h2 class="text-3xl text-sky-400">Key concepts</h2>

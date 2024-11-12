@@ -12,7 +12,7 @@
 </article>
 
 <section
-	class="z-10 grid grid-cols-1 place-items-center items-center justify-center px-8 gap-4 text-pretty pb-0 text-start md:grid-cols-2 "
+	class="z-10 grid grid-cols-1 place-items-center items-center justify-center px-8 gap-8 text-pretty pb-0 text-start md:grid-cols-2 "
 >
 	<figure class=" ">
 		<img

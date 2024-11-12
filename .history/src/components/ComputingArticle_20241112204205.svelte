@@ -12,45 +12,44 @@
 </article>
 
 <section
-	class="z-10 grid grid-cols-1 place-items-center items-center justify-center px-8 gap-4 text-pretty pb-0 text-start md:grid-cols-2 "
+	class="z-10 grid grid-cols-1 place-content-center place-items-start items-center place-self-center text-pretty pb-8 text-start lg:grid-cols-2"
 >
-	<figure class=" ">
+	<figure class="mr-12 box-content -translate-y-24 place-self-center drop-shadow-[(0_0px_22px_rgba(255,255,99,0.2))]">
 		<img
-			class="border-2 rounded-xl border-[hsla(184,69%,60%,1)] mt-8"
-			src=" https://azure.microsoft.com/en-us/blog/wp-content/uploads/2024/11/AZUREBLOG_MAR27_Azure-3D-Illustration-2-Magenta_240327_V1-1.webp"
-			alt="cloudadvantage"
+			src="../public/images/cloud.png"
+			alt="cloudadva"
 			loading="lazy"
 		/>
 	</figure>
 
 	<div
-		class="items-center justify-center mx-auto flex   flex-col  gap-0 pb-0 text-sky-100 px-4 my-8   md:my-32"
+		class="items-center mx-auto flex w-[35ch] -translate-y-40 flex-col place-content-center place-items-center justify-center gap-0 px-0 pb-0 text-sky-100 sm:-translate-y-8 md:-mt-28 md:w-[52ch] md:translate-y-[-4px]"
 	>
-		<header class="mx-auto  py-4">
+		<header class="mx-auto mt-10 pb-4">
 			<h2 class="text-3xl text-sky-400">Key concepts</h2>
 		</header>
-		<ul class="w-[35ch] sm:w-[55ch] md:w-[35ch] lg:w-[50ch] xl:w-[60ch] list-inside list-disc text-left md:mx-auto mb-8">
-			<p>
+		<ul class="w-[35ch] list-inside list-disc text-left md:mx-auto">
+			<li>
 				<strong>Scalability:</strong> The ability to scale, so allocate and deallocate resources at any
 				time.
-			</p>
-			<p><strong>Elasticity:</strong> The ability to scale dynamically.</p>
-			<p><strong>Agility:</strong> The ability to react fast (scale quickly).</p>
-			<p>
+			</li>
+			<li><strong>Elasticity:</strong> The ability to scale dynamically.</li>
+			<li><strong>Agility:</strong> The ability to react fast (scale quickly).</li>
+			<li>
 				<strong>Fault Tolerance:</strong> The ability to maintain system uptime while physical and service
 				component failures happen.
-			</p>
-			<p>
+			</li>
+			<li>
 				<strong>Disaster Recovery:</strong> The process and design principle which allows a system to
 				recover from natural or human-induced disasters.
-			</p>
-			<p>
+			</li>
+			<li>
 				<strong>High Availability:</strong> The agreed level of operational uptime for the system.<br />
 				It is a simple calculation of system uptime versus the whole lifetime of the system:<br />
 				<code
-					class="text-semibold pt-4 mx-auto text-center text-[clamp(0.8rem,2vw,1rem)] uppercase text-sky-400 underline underline-offset-8"
+					class="text-semibold pt-4 text-center text-[clamp(0.8rem,2vw,1rem)] uppercase text-sky-400 underline underline-offset-8"
 				>availability = uptime / (uptime + downtime)</code>
-			</p>
+			</li>
 		</ul>
 	</div>
 </section>
