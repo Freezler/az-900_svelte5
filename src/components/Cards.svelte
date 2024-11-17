@@ -44,11 +44,11 @@
 >
   {#each concepts as concept}
     <div
-      class=' mt-4 grid grid-rows-[148px_64px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--text-color] bg-sky-600/10 pb-9 shadow-[0_0px_22px_rgba(255,255,99,0.2)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[hsla(184,69%,60%,1)] hover:shadow-[2px_6px_12px_rgba(22,125,22,0.9)]'
+      class=' mt-4 grid grid-rows-[148px_64px_auto_auto] place-items-center overflow-hidden rounded-2xl border-2 border-[--border-color] bg-sky-600/10 pb-9 shadow-[0_0px_22px_rgba(255,255,99,0.2)] brightness-90 transition duration-700 hover:scale-[1.001] hover:border-[--border-hover] hover:shadow-[2px_6px_12px] hover:shadow-[--shadow-color]'
     >
       <img
         src={concept.image}
-        class=' z-10 h-[172px] pt-2  w-full border-b-2 border-[--text-color] object-cover object-center hover:border-[hsla(184,69%,60%,1)]'
+        class=' z-10 h-[172px] pt-2  w-full border-b-2 border-[--border-color] object-cover object-center hover:border-[--border-hover]'
         loading='lazy'
         alt='concept'
       />
@@ -59,18 +59,18 @@
       </div>
 
       <div
-        class=' row-span-12 my-5 w-full grid grid-rows-subgrid place-items-start items-start gap-4 text-pretty border border-transparent bg-[--card-bg-color] px-8 py-8 text-start'
+        class=' row-span-12 my-5 w-full grid grid-rows-subgrid place-items-start items-start gap-4 text-pretty border border-[--border-color] bg-[--card-bg-color] px-8 py-8 text-start'
       >
         {#each concept.features as feature}
           <h3
-            class='border-b-1 mx-auto  grid grid-cols-subgrid grid-rows-subgrid text-balance border-[--text-color] px-0 text-[clamp(var(--card))] font-normal leading-snug tracking-wider text-[--text-color] py-0 first:border-t-2 first:pt-6 last:pb-6 last:border-b-2  border-s-fuchsia-400 '>
+            class='border-b-1 mx-auto  grid grid-cols-subgrid grid-rows-subgrid text-balance border-[--border-color] px-0 text-[clamp(var(--card))] font-normal leading-snug tracking-wider text-[--text-color] py-0 first:border-t-2 first:pt-6 last:pb-6 last:border-b-2'>
             {feature}
           </h3>
         {/each}
       </div>
       <button
         type='button'
-        class='mx-auto mt-3 w-[220px] grid-cols-subgrid rounded-xl border-[2px_solid_var(--text-color)] bg-sky-900 px-8 py-4 text-base font-semibold uppercase text-[--text-color] transition duration-[420ms] hover:bg-sky-500 hover:text-white hover:shadow-[2px_2px_22px_rgb(65,183,255,0.9)] md:text-lg lg:text-lg'
+        class='mx-auto mt-3 w-[220px] grid-cols-subgrid rounded-xl border-2 border-[--border-color] bg-sky-900 px-8 py-4 text-base font-semibold uppercase text-[--text-color] transition duration-[420ms] hover:bg-sky-500 hover:text-white hover:shadow-[2px_2px_22px_rgb(65,183,255,0.9)] md:text-lg lg:text-lg'
       ><a href='/{concept.url}'>Learn more</a></button
       >
     </div>

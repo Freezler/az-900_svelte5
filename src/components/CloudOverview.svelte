@@ -14,7 +14,7 @@
 >
 	<figure class=" ">
 		<img
-			class="mb-6 mt-8 rounded-xl border-2 border-[hsla(184,69%,60%,1)] md:mt-0 md:h-[426px] md:w-full"
+			class="mb-6 mt-8 rounded-xl border-2 border-[--border-color] hover:border-[--border-hover] hover:shadow-[2px_2px_24px] duration-1000 hover:shadow-[--shadow-color]  md:mt-0 md:h-[426px] md:w-full"
 			src=" https://azure.microsoft.com/en-us/blog/wp-content/uploads/2024/11/AZUREBLOG_MAR27_Azure-3D-Illustration-2-Magenta_240327_V1-1.webp"
 			alt="cloudadvantage"
 			loading="lazy"

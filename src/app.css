@@ -8,8 +8,11 @@
   --text-color    : hsla(200, 71%, 96%, 0.997);
   --bg-color      : hsla(201, 88%, 3%, 0.997);
   --card-bg-color : hsla(199, 32%, 19%, 0.3);
-  --p             : 0.5em, 3.5vw, 1rem;
-  --card          : --p
+  --p             : 0.5em, 3.5vw, 0.8rem;
+  --card          : --p --radius: 12px;
+  --border-color  : hsla(195, 82%, 69%, 0.997);
+  --border-hover  : rgba(81, 34, 93,.9);
+  --shadow-color  : hsla(309, 83%, 51%, 0.6);
 }
 
 * {
