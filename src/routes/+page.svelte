@@ -1,20 +1,18 @@
 <script lang="ts">
-	import ComputingArticle from '../components/CloudArticle.svelte';
-
-	import Toggle from '../components/Toggle.svelte';
-	import Header from '../components/Header.svelte';
-	import Popover from '../components/Menu.svelte';
 	import Cards from '../components/Cards.svelte';
+	import CloudOverview from '../components/CloudOverview.svelte';
+	import Header from '../components/Header.svelte';
 	import Login from '../components/Login.svelte';
+	import Popover from '../components/Menu.svelte';
 </script>
 
-<header class="">
-	<Popover />
-	<Header />
+<Popover />
+<header>
+	<Header name="AZ -" number="900" topic={'Azure fundamentals'}></Header>
 </header>
 <main>
 	<section>
-		<ComputingArticle />
+		<CloudOverview />
 		<Cards />
 	</section>
 	<!-- <aside><Toggle /></aside> -->

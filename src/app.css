@@ -4,11 +4,12 @@
 
 :root {
   --primary-header: hsla(199, 83%, 7%, 0.997);
-  --primary-text: hsla(347, 93%, 59%, 0.997);
-  --text-color: hsla(199, 93%, 59%, 0.997);
-  --bg-color:  hsla(201, 88%, 3%, 0.997);
-  --card-bg-color:  hsla(199, 89%, 48%, 0.9);
-
+  --primary-text  : hsla(212, 93%, 59%, 0.997);
+  --text-color    : hsla(200, 71%, 96%, 0.997);
+  --bg-color      : hsla(201, 88%, 3%, 0.997);
+  --card-bg-color : hsla(199, 32%, 19%, 0.3);
+  --p             : 0.5em, 3.5vw, 1rem;
+  --card          : --p
 }
 
 * {
@@ -19,9 +20,6 @@
   /* outline : 1px dotted red; */
 }
 
-
-
 body {
   font-family: 'Inter', sans-serif;
 }
-
